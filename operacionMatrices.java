@@ -36,10 +36,8 @@ public class operacionMatrices {
 	    int fil = matriz.length;
 	    int col = matriz[0].length;
 
-	    // Create transpose matrix
 	    int[][] transponer = new int[col][fil];
 
-	    // Perform transpose
 	    for (int i = 0; i < fil; i++) {
 	        for (int j = 0; j < col; j++) {
 	            transponer[j][i] = matriz[i][j];
@@ -78,10 +76,8 @@ public class operacionMatrices {
 	    int fil = matriz1.length;
 	    int col = matriz1[0].length;
 
-	    // Create sum matrix
 	    int[][] sum = new int[fil][col];
 
-	    // Perform matrix addition
 	    for (int i = 0; i < fil; i++) {
 	        for (int j = 0; j < col; j++) {
 	            sum[i][j] = matriz1[i][j] + matriz2[i][j];
